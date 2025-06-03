@@ -1,0 +1,15 @@
+div{
+    display: flex;
+    grid-template-columns: 50px 50px;
+    flex-direction: row;
+    background-color: red;
+    width: 400px;
+    height: 500px;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+}
