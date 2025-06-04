@@ -1,0 +1,9 @@
+.PokeFlex {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    gap: 20px;
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}

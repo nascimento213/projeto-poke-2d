@@ -1,12 +1,12 @@
-import './PokeFlex.css'
+import './PokeGrid.css'
 import poke from './assets/pokeapi_256.png'
 import eevee from './assets/eevee.jpg'
  
 
-const PokeFlex = () => {
+const PokeGrid = () => {
 
     return (
-        <div className={"PokeFlex"}>
+        <div className={"PokeGrid"}>
             <img src={poke} />
             <img src={eevee}/>
             <img src={poke} />
@@ -23,4 +23,4 @@ const PokeFlex = () => {
     )
 }
 
-export default PokeFlex
+export default PokeGrid
